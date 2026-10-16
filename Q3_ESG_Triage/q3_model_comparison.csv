@@ -1,0 +1,4 @@
+test_id,expected_category,gemini_category,baseline_category,expected_urgency,gemini_urgency,baseline_urgency,expected_team,gemini_team,baseline_team
+T1,WATER_AND_UTILITIES,WATER_AND_UTILITIES,WATER_AND_UTILITIES,CRITICAL,CRITICAL,CRITICAL,Facilities,Facilities,Facilities
+T2,SUSTAINABLE_PROCUREMENT,SUSTAINABLE_PROCUREMENT,SUSTAINABLE_PROCUREMENT,MEDIUM,MEDIUM,MEDIUM,Procurement,Procurement,Procurement
+T3,ACCESSIBILITY,ACCESSIBILITY,ACCESSIBILITY,HIGH,HIGH,HIGH,Accessibility,Accessibility,Accessibility

@@ -1,0 +1,4 @@
+run_number,issue_category,urgency,sentiment,followup_required,recommended_team,data_sensitivity_risk,human_review_required
+1,SUSTAINABLE_PROCUREMENT,MEDIUM,NEGATIVE,Y,Procurement,MEDIUM,False
+2,SUSTAINABLE_PROCUREMENT,MEDIUM,NEGATIVE,Y,Procurement,MEDIUM,False
+3,SUSTAINABLE_PROCUREMENT,MEDIUM,NEGATIVE,Y,Procurement,LOW,False

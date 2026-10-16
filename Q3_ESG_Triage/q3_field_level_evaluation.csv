@@ -1,0 +1,43 @@
+system,test_id,field,expected,predicted,match
+Gemini,T1,issue_category,WATER_AND_UTILITIES,WATER_AND_UTILITIES,True
+Gemini,T1,urgency,CRITICAL,CRITICAL,True
+Gemini,T1,sentiment,NEGATIVE,NEGATIVE,True
+Gemini,T1,followup_required,Y,Y,True
+Gemini,T1,recommended_team,Facilities,Facilities,True
+Gemini,T1,data_sensitivity_risk,LOW,LOW,True
+Gemini,T1,human_review_required,True,True,True
+Gemini,T2,issue_category,SUSTAINABLE_PROCUREMENT,SUSTAINABLE_PROCUREMENT,True
+Gemini,T2,urgency,MEDIUM,MEDIUM,True
+Gemini,T2,sentiment,NEGATIVE,NEGATIVE,True
+Gemini,T2,followup_required,Y,Y,True
+Gemini,T2,recommended_team,Procurement,Procurement,True
+Gemini,T2,data_sensitivity_risk,MEDIUM,MEDIUM,True
+Gemini,T2,human_review_required,False,False,True
+Gemini,T3,issue_category,ACCESSIBILITY,ACCESSIBILITY,True
+Gemini,T3,urgency,HIGH,HIGH,True
+Gemini,T3,sentiment,NEGATIVE,NEGATIVE,True
+Gemini,T3,followup_required,Y,Y,True
+Gemini,T3,recommended_team,Accessibility,Accessibility,True
+Gemini,T3,data_sensitivity_risk,LOW,LOW,True
+Gemini,T3,human_review_required,True,True,True
+Rule-based baseline,T1,issue_category,WATER_AND_UTILITIES,WATER_AND_UTILITIES,True
+Rule-based baseline,T1,urgency,CRITICAL,CRITICAL,True
+Rule-based baseline,T1,sentiment,NEGATIVE,NEGATIVE,True
+Rule-based baseline,T1,followup_required,Y,Y,True
+Rule-based baseline,T1,recommended_team,Facilities,Facilities,True
+Rule-based baseline,T1,data_sensitivity_risk,LOW,LOW,True
+Rule-based baseline,T1,human_review_required,True,True,True
+Rule-based baseline,T2,issue_category,SUSTAINABLE_PROCUREMENT,SUSTAINABLE_PROCUREMENT,True
+Rule-based baseline,T2,urgency,MEDIUM,MEDIUM,True
+Rule-based baseline,T2,sentiment,NEGATIVE,NEGATIVE,True
+Rule-based baseline,T2,followup_required,Y,Y,True
+Rule-based baseline,T2,recommended_team,Procurement,Procurement,True
+Rule-based baseline,T2,data_sensitivity_risk,MEDIUM,MEDIUM,True
+Rule-based baseline,T2,human_review_required,False,False,True
+Rule-based baseline,T3,issue_category,ACCESSIBILITY,ACCESSIBILITY,True
+Rule-based baseline,T3,urgency,HIGH,HIGH,True
+Rule-based baseline,T3,sentiment,NEGATIVE,NEGATIVE,True
+Rule-based baseline,T3,followup_required,Y,Y,True
+Rule-based baseline,T3,recommended_team,Accessibility,Accessibility,True
+Rule-based baseline,T3,data_sensitivity_risk,LOW,LOW,True
+Rule-based baseline,T3,human_review_required,True,True,True

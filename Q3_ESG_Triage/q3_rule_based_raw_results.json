@@ -1,0 +1,44 @@
+[
+  {
+    "test_id": "T1",
+    "message": "There is a water leak in Building C that has been running all morning, and water is now approaching an electrical outlet.",
+    "issue_category": "WATER_AND_UTILITIES",
+    "urgency": "CRITICAL",
+    "sentiment": "NEGATIVE",
+    "followup_required": "Y",
+    "recommended_team": "Facilities",
+    "escalation_reason": "Critical keywords indicate an immediate hazard.",
+    "data_sensitivity_risk": "LOW",
+    "brief_summary": "There is a water leak in Building C that has been running all morning, and water is now approaching an electrical outlet.",
+    "confidence": 0.9,
+    "human_review_required": true
+  },
+  {
+    "test_id": "T2",
+    "message": "A supplier has refused to provide evidence that it complies with our sustainability and ethical sourcing policy.",
+    "issue_category": "SUSTAINABLE_PROCUREMENT",
+    "urgency": "MEDIUM",
+    "sentiment": "NEGATIVE",
+    "followup_required": "Y",
+    "recommended_team": "Procurement",
+    "escalation_reason": "The issue requires investigation but no immediate danger was detected.",
+    "data_sensitivity_risk": "MEDIUM",
+    "brief_summary": "A supplier has refused to provide evidence that it complies with our sustainability and ethical sourcing policy.",
+    "confidence": 0.9,
+    "human_review_required": false
+  },
+  {
+    "test_id": "T3",
+    "message": "The only accessible entrance to the main building has been blocked for two days, and a wheelchair user cannot enter independently.",
+    "issue_category": "ACCESSIBILITY",
+    "urgency": "HIGH",
+    "sentiment": "NEGATIVE",
+    "followup_required": "Y",
+    "recommended_team": "Accessibility",
+    "escalation_reason": "High-priority keywords indicate significant ongoing impact.",
+    "data_sensitivity_risk": "LOW",
+    "brief_summary": "The only accessible entrance to the main building has been blocked for two days, and a wheelchair user cannot enter independently.",
+    "confidence": 0.9,
+    "human_review_required": true
+  }
+]

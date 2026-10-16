@@ -1,0 +1,109 @@
+test_id,message,model,test_timestamp_utc,raw_output,issue_category,urgency,sentiment,followup_required,recommended_team,escalation_reason,data_sensitivity_risk,brief_summary,confidence,human_review_required,run_number
+T1,"There is a water leak in Building C that has been running all morning, and water is now approaching an electrical outlet.",gemini-2.5-flash,2026-10-15T15:35:40.879447+00:00,"{
+  ""issue_category"": ""WATER_AND_UTILITIES"",
+  ""urgency"": ""CRITICAL"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""Facilities"",
+  ""escalation_reason"": ""Water leak in Building C is approaching an electrical outlet, creating an immediate and critical safety hazard (electrocution/fire risk)."",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""Water leak in Building C is approaching an electrical outlet, posing a critical safety risk."",
+  ""confidence"": 0.95,
+  ""human_review_required"": true
+}",WATER_AND_UTILITIES,CRITICAL,NEGATIVE,Y,Facilities,"Water leak in Building C is approaching an electrical outlet, creating an immediate and critical safety hazard (electrocution/fire risk).",LOW,"Water leak in Building C is approaching an electrical outlet, posing a critical safety risk.",0.95,True,1
+T2,A supplier has refused to provide evidence that it complies with our sustainability and ethical sourcing policy.,gemini-2.5-flash,2026-10-15T15:35:44.734571+00:00,"{
+  ""issue_category"": ""SUSTAINABLE_PROCUREMENT"",
+  ""urgency"": ""MEDIUM"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""Procurement"",
+  ""escalation_reason"": ""Supplier non-compliance with sustainability and ethical sourcing policy."",
+  ""data_sensitivity_risk"": ""MEDIUM"",
+  ""brief_summary"": ""Supplier refused to provide evidence of compliance with sustainability and ethical sourcing policy."",
+  ""confidence"": 0.95,
+  ""human_review_required"": false
+}",SUSTAINABLE_PROCUREMENT,MEDIUM,NEGATIVE,Y,Procurement,Supplier non-compliance with sustainability and ethical sourcing policy.,MEDIUM,Supplier refused to provide evidence of compliance with sustainability and ethical sourcing policy.,0.95,False,1
+T3,"The only accessible entrance to the main building has been blocked for two days, and a wheelchair user cannot enter independently.",gemini-2.5-flash,2026-10-15T15:35:48.863223+00:00,"{
+  ""issue_category"": ""ACCESSIBILITY"",
+  ""urgency"": ""HIGH"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""Accessibility"",
+  ""escalation_reason"": ""Only accessible entrance blocked for two days, causing serious accessibility exclusion for wheelchair users."",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""Only accessible entrance to main building blocked for two days, preventing independent access for wheelchair users."",
+  ""confidence"": 0.95,
+  ""human_review_required"": true
+}",ACCESSIBILITY,HIGH,NEGATIVE,Y,Accessibility,"Only accessible entrance blocked for two days, causing serious accessibility exclusion for wheelchair users.",LOW,"Only accessible entrance to main building blocked for two days, preventing independent access for wheelchair users.",0.95,True,1
+T1,"There is a water leak in Building C that has been running all morning, and water is now approaching an electrical outlet.",gemini-2.5-flash,2026-10-15T15:43:32.674938+00:00,"{
+  ""issue_category"": ""WATER_AND_UTILITIES"",
+  ""urgency"": ""CRITICAL"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""Facilities"",
+  ""escalation_reason"": ""Water leak approaching electrical outlet poses critical safety risk."",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""Water leak in Building C is approaching an electrical outlet."",
+  ""confidence"": 1.00,
+  ""human_review_required"": true
+}",WATER_AND_UTILITIES,CRITICAL,NEGATIVE,Y,Facilities,Water leak approaching electrical outlet poses critical safety risk.,LOW,Water leak in Building C is approaching an electrical outlet.,1.0,True,2
+T2,A supplier has refused to provide evidence that it complies with our sustainability and ethical sourcing policy.,gemini-2.5-flash,2026-10-15T15:43:36.527680+00:00,"{
+  ""issue_category"": ""SUSTAINABLE_PROCUREMENT"",
+  ""urgency"": ""MEDIUM"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""Procurement"",
+  ""escalation_reason"": ""Supplier non-compliance with sustainability and ethical sourcing policy."",
+  ""data_sensitivity_risk"": ""MEDIUM"",
+  ""brief_summary"": ""Supplier refused to provide evidence of compliance with sustainability and ethical sourcing policy."",
+  ""confidence"": 0.95,
+  ""human_review_required"": false
+}",SUSTAINABLE_PROCUREMENT,MEDIUM,NEGATIVE,Y,Procurement,Supplier non-compliance with sustainability and ethical sourcing policy.,MEDIUM,Supplier refused to provide evidence of compliance with sustainability and ethical sourcing policy.,0.95,False,2
+T3,"The only accessible entrance to the main building has been blocked for two days, and a wheelchair user cannot enter independently.",gemini-2.5-flash,2026-10-15T15:43:39.975701+00:00,"{
+  ""issue_category"": ""ACCESSIBILITY"",
+  ""urgency"": ""HIGH"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""Accessibility"",
+  ""escalation_reason"": ""Serious accessibility exclusion due to the only accessible entrance being blocked for two days."",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""The only accessible entrance to the main building has been blocked for two days, preventing independent entry for wheelchair users."",
+  ""confidence"": 0.95,
+  ""human_review_required"": true
+}",ACCESSIBILITY,HIGH,NEGATIVE,Y,Accessibility,Serious accessibility exclusion due to the only accessible entrance being blocked for two days.,LOW,"The only accessible entrance to the main building has been blocked for two days, preventing independent entry for wheelchair users.",0.95,True,2
+T1,"There is a water leak in Building C that has been running all morning, and water is now approaching an electrical outlet.",gemini-2.5-flash,2026-10-15T15:43:43.954694+00:00,"{
+  ""issue_category"": ""WATER_AND_UTILITIES"",
+  ""urgency"": ""CRITICAL"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""Facilities"",
+  ""escalation_reason"": ""Water leak in Building C is approaching an electrical outlet, creating an immediate and critical safety hazard (electrocution/fire risk)."",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""Water leak in Building C is approaching an electrical outlet, posing a critical safety risk."",
+  ""confidence"": 0.95,
+  ""human_review_required"": true
+}",WATER_AND_UTILITIES,CRITICAL,NEGATIVE,Y,Facilities,"Water leak in Building C is approaching an electrical outlet, creating an immediate and critical safety hazard (electrocution/fire risk).",LOW,"Water leak in Building C is approaching an electrical outlet, posing a critical safety risk.",0.95,True,3
+T2,A supplier has refused to provide evidence that it complies with our sustainability and ethical sourcing policy.,gemini-2.5-flash,2026-10-15T15:43:48.107884+00:00,"{
+  ""issue_category"": ""SUSTAINABLE_PROCUREMENT"",
+  ""urgency"": ""MEDIUM"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""Procurement"",
+  ""escalation_reason"": ""No immediate escalation required."",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""Supplier refused to provide evidence of compliance with sustainability and ethical sourcing policy."",
+  ""confidence"": 1.00,
+  ""human_review_required"": false
+}",SUSTAINABLE_PROCUREMENT,MEDIUM,NEGATIVE,Y,Procurement,No immediate escalation required.,LOW,Supplier refused to provide evidence of compliance with sustainability and ethical sourcing policy.,1.0,False,3
+T3,"The only accessible entrance to the main building has been blocked for two days, and a wheelchair user cannot enter independently.",gemini-2.5-flash,2026-10-15T15:43:51.896003+00:00,"{
+  ""issue_category"": ""ACCESSIBILITY"",
+  ""urgency"": ""HIGH"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""Accessibility"",
+  ""escalation_reason"": ""Serious accessibility exclusion due to the only accessible entrance being blocked for two days."",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""The only accessible entrance to the main building has been blocked for two days, preventing independent entry for wheelchair users."",
+  ""confidence"": 0.95,
+  ""human_review_required"": true
+}",ACCESSIBILITY,HIGH,NEGATIVE,Y,Accessibility,Serious accessibility exclusion due to the only accessible entrance being blocked for two days.,LOW,"The only accessible entrance to the main building has been blocked for two days, preventing independent entry for wheelchair users.",0.95,True,3

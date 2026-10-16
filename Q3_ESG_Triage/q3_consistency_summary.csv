@@ -1,0 +1,4 @@
+test_id,number_of_runs,consistent_fields,total_fields,all_core_fields_consistent
+T1,3,7,7,True
+T2,3,6,7,False
+T3,3,7,7,True
